@@ -14,13 +14,13 @@ class Account(models.Model):
     pass
 
 class DebitCard(models.Model):
-	account = models.ForeignKey(Account)
-	plasticId = models.CharField(max_length=100)
-	expireDate = models.DateField()
-	pass
+    account = models.ForeignKey(Account)
+    plasticId = models.CharField(max_length=100)
+    expireDate = models.DateField()
+    pass
 
 class BalanceSnapshot(models.Model):
-	account = models.ForeignKey(Account)
-	date = models.DateTimeField()
-	amount = models.FloatField()
-	pass
+    account = models.ForeignKey(Account)
+    date = models.DateTimeField()
+    amount = models.FloatField()
+    pass
