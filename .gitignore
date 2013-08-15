@@ -2,6 +2,7 @@
 
 #python specific
 *.py[cod]
+*.db
 
 ## generic files to ignore
 *~

@@ -8,4 +8,5 @@ from django.contrib import admin
 admin.site.register(Bank)
 admin.site.register(Account)
 admin.site.register(DebitCard)
+admin.site.register(Transaction)
 admin.site.register(BalanceSnapshot)
